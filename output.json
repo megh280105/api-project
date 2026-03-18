@@ -1,0 +1,25 @@
+[
+  {
+    "request": "POST /items",
+    "body": {
+      "id": 1,
+      "name": "Test Item 1"
+    },
+    "response": {
+      "message": "Item created",
+      "item": {
+        "id": 1,
+        "name": "Test Item 1"
+      }
+    }
+  },
+  {
+    "request": "GET /items",
+    "response": [
+      {
+        "id": 1,
+        "name": "Test Item 1"
+      }
+    ]
+  }
+]
